@@ -1,0 +1,164 @@
+*{
+box-sizing:border-box;
+}
+
+
+body{
+background:url("sky2.jpg") no-repeat fixed;
+background-size:1000px;
+font-family:cursive;
+font-size:15px;
+}
+
+nav{
+	display:flex;
+	background-color:blue;
+}
+
+nav a{
+	text-decoration:none;
+	padding:15px 15px;
+	color:white;
+}
+
+nav a:hover{
+	color:red;
+}
+
+
+.container{
+	display:grid;
+	grid-template-columns:2fr 4fr;
+	grid-gap:15px;
+	grid-template-areas:
+	"aside section";
+	
+}
+
+
+.aside{
+	grid-area:aside;
+}
+
+.section{
+	grid-area:section;
+}
+
+
+.section{
+	display:grid;
+	grid-template-columns:1fr;
+	grid-gap:10px;
+	grid-template-areas:
+	"sec"
+	"sec1";
+}
+
+.sec{
+	grid-area:sec;
+}
+
+.sec1{
+	grid-area:sec1;
+}
+
+
+.sec1{
+	display:flex;
+	gap:15px;
+}
+
+.t{
+	flex:50%;
+}
+
+
+.t1{
+	flex:50%;
+}
+
+
+.last{
+	border:1px solid black;
+	border-radius:20px;
+	padding:15px;
+	background-color:blue;
+}
+
+
+.new{
+	border:1px solid black;
+	border-radius:20px;
+	padding:15px;
+	background-color:blue;
+}
+
+
+.wrapper{
+	background-color:black;
+	padding:30px;
+	border-radius:15px;
+	color:white;
+}
+
+
+footer{
+	background-color:lightblue;
+	padding:40px;
+	text-align:center;
+}
+
+
+.fa-facebook{
+	font-size:20px;
+	color:white;
+	background-color:blue;
+}
+
+
+.fa-whatsapp{
+	font-size:20px;
+	color:white;
+	background-color:green;
+}
+
+
+.fa-twitter{
+	font-size:20px;
+	color:white;
+	background-color:blue;
+}
+
+
+.fa-facebook,.fa-whatsapp,.fa-twitter,.fa-youtube{
+	padding:5px 5px;
+	border-radius:50%;
+	border:4px solid transparent;
+}
+
+
+
+.fa-youtube{
+	font-size:20px;
+	color:white;
+	background-color:red;
+}
+
+
+.navbi{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+.navbi a{
+	text-decoration:none;
+	padding:10px 10px;
+}
+
+
+.header{
+color:white;
+}
+
+	
